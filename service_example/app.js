@@ -1,5 +1,12 @@
 (function(){
   'use strict';
 
-  console.log("HOLA");
+  angular.module('ServiceApp',[])
+  .controller('ListController',ListController);
+
+  function ListController(){
+    var list=this;
+    list.name="HOLA";
+  };
+
 })();

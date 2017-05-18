@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="ServiceApp">
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="app.js"></script>
     <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
     <title>Service Example</title>
   </head>
   <body>
     <h1>Service Example</h1>
+    <div ng-controller="ListController as list">
+      {{list.name}}
+    </div>
   </body>
 </html>
